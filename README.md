@@ -9,7 +9,7 @@
 
 1. Store your first name in a variable.
 2. Concatenate your first name with your last name, and store the result in another variable.
-3. Use the `String` <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split" target="_blank">`split`</a> method to turn your string variable from challenge #2 into an array.
+3. Use the `String` [split](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split) method to turn your string variable from challenge #2 into an array.
 
 ### Arrays
 
@@ -49,7 +49,7 @@
 
 	  <details>
 	    <summary>answer</summary>
-      friends.push("Me!");
+      friends.push("Me!");  
       friends.unshift("Someone else!");
 	  </details>
 
@@ -85,10 +85,8 @@
 
 	  <details>
 	    <summary>answer</summary>
-	    ```js
-	    var allFriends = myFriends.concat(yourFriends);
+	    var allFriends = myFriends.concat(yourFriends);  
 	    allFriends.sort();
-	    ```
 	  </details>
 
 
@@ -102,7 +100,6 @@
 
 	  <details>
 	    <summary>sample answer</summary>
-	    ```js
 	    var jd = {
 	      firstName: "John",
 	      lastName: "Doe",
@@ -112,7 +109,6 @@
 		number: 1234
 	      }
 	    }
-	    ```
 	  </details>
 
 2. How would you represent the following data using a combination of object literals and arrays? (You can describe a strategy without typing or writing out the whole thing.)
