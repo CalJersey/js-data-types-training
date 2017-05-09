@@ -85,8 +85,8 @@
 
 	  <details>
 	    <summary>answer</summary>
-	    var allFriends = myFriends.concat(yourFriends);  
-      
+
+      var allFriends = myFriends.concat(yourFriends);  
 	    allFriends.sort();
 	  </details>
 
