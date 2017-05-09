@@ -221,7 +221,7 @@ var clubs =  [
 1. Create an object literal representing a student with your name, and assign it to a variable.
 	  <details>
 	    <summary>answer</summary>
-	    `var me = { first: 'Bob', last: 'Loblaw' };`
+	    var me = { first: 'Bob', last: 'Loblaw' };
 	  </details>
 
 
@@ -229,11 +229,10 @@ var clubs =  [
 1. Add yourself to one of the clubs as a student member.
 	  <details>
 	    <summary>answer</summary>
-	    ```js
+
 	    // joining the swim team
 	    clubs[2]['students'].push(me); // or
 	    clubs[2].students.push(me);  
-	    ```
 	  </details>
 
 
@@ -241,13 +240,12 @@ var clubs =  [
 1. Create an object literal representing a new club, and assign it to a variable. Make sure it has values for name, students, and teacher.
 	  <details>
 	    <summary>answer</summary>
-	    ```js
+
 	    var lawClub = {
 		name: 'Legal Eagles',
 		students: [],
 		teacher: 'Abby Fuentes'
 	    };
-	    ```
 	  </details>
 
 
@@ -255,19 +253,17 @@ var clubs =  [
 	* Use an array method to add your new club to the array of clubs.  
 	    <details>
 	      <summary>answer</summary>
-	      ```js
+
 	      clubs.push(lawClub);
-	      ```
 	    </details>
 
 
 	* Add yourself as a student in the new club.
 	    <details>
 	      <summary>answer</summary>
-	      ```js
+
 	      clubs[3]['students'].push(me); // or
 	      clubs[3].students.push(me);
-	      ```
 	    </details>
 
 
@@ -276,12 +272,11 @@ var clubs =  [
 
 	  <details>
 	    <summary>answer</summary>
-	    ```js
+
 	    clubs[0]['students'][2]['first'] = 'Sam';
 	    clubs[2]['students'][1]['first'] = 'Sam';
 	    clubs[0].students[2].first = 'Sam';
 	    clubs[2].students[1].first = 'Sam';
-	    ```
 	  </details>
 
 
