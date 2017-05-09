@@ -49,12 +49,8 @@
 
 	  <details>
 	    <summary>answer</summary>
-
-```js
-friends.push("Me!");
-friends.unshift("Someone else!");
-```
-
+      friends.push("Me!");
+      friends.unshift("Someone else!");
 	  </details>
 
 4. Stretch: We have two lists of friends below. Use array methods to combine them into one alphabetically-sorted list.
