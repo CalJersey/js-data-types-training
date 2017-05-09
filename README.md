@@ -101,6 +101,7 @@
 
 	  <details>
 	    <summary>sample answer</summary>
+
 	    var jd = {
 	      firstName: "John",
 	      lastName: "Doe",
@@ -123,6 +124,7 @@
 
 	  <details>
 	    <summary>answer</summary>
+
 	    Structure each object like the one I made for the last question. Then put all of the objects inside one array.
 	  </details>
 
@@ -171,50 +173,47 @@ var clubs =  [
 	* the array that contains all the student club data
 	    <details>
 	      <summary>answer</summary>
-	      `console.log(clubs);`
+	      console.log(clubs);
 	    </details>
 
 	* the number of clubs  
 	    <details>
 	      <summary>answer</summary>
-	      `console.log(clubs.length);`
+	      console.log(clubs.length);
 	    </details>
 
 
 	* the object that contains all of the information for the jazz band
 	    <details>
 	      <summary>answer</summary>
-	      `console.log(clubs[1]);`
+	      console.log(clubs[1]);
 	    </details>
 
 
 	* the teacher of the first club  
 	    <details>
 	      <summary>answer</summary>
-	      ```js
+
 	      console.log(clubs[0]['teacher']); // bracket notation, or
 	      console.log(clubs[0].teacher);    // dot notation
-	      ```
 	    </details>
 
 
 	* the array of students in the jazz band
 	    <details>
 	      <summary>answer</summary>
-	      ```js
+
 	      console.log(clubs[1]['students']);
 	      console.log(clubs[1].students);
-	      ```
 	    </details>
 
 
 	* the last name of the second student on the swim team  
 	    <details>
 	      <summary>answer</summary>
-	      ```js
+
 	      console.log(clubs[2]['students'][1]['last']);
 	      console.log(clubs[2].students[1].last);
-	      ```
 	    </details>
 
 
