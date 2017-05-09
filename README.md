@@ -17,9 +17,7 @@
 
 	  <details>
 	    <summary>answer</summary>
-	    ```js
 	    foods[4]
-	    ```
 	  </details>
 
 
