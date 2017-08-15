@@ -135,7 +135,7 @@ Copy the following `clubs` variable into your console.
 
 ```js
 var clubs =  [
-	{
+    {
       name: 'Yearbook',
         students: [
           { first: 'Joe', last: 'Lakin' },
