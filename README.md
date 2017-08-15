@@ -138,8 +138,8 @@ var clubs =  [
 	{
     	name: 'Yearbook',
         students: [
-	        { first: 'Joe', last: 'Lakin' },
-	        { first: 'Evalyn', last: 'Bradtke' },
+					{ first: 'Joe', last: 'Lakin' },
+					{ first: 'Evalyn', last: 'Bradtke' },
 					{ first: 'Samuel', last: 'Black' }
 	    ],
         teacher: 'James Friar'
@@ -148,7 +148,7 @@ var clubs =  [
     	name: 'Jazz Band',
         students: [
 					{ first: 'Douglas', last: 'Wisoky' },
-        	{ first: 'Cora', last: 'Thompson' },
+					{ first: 'Cora', last: 'Thompson' },
 					{ first: 'Samuel', last: 'Ziemann' },
 					{ first: 'Alana', last: 'Cortez'}
 	    ],
@@ -157,7 +157,7 @@ var clubs =  [
     {
     	name: 'Swim Team',
         students: [
-        	{ first: 'Cora', last: 'Thompson' },
+					{ first: 'Cora', last: 'Thompson' },
 					{ first: 'Samuel', last: 'Black' },
 					{ first: 'Alana', last: 'Cortez'},
 					{ first: 'Joe', last: 'Lakin' }
