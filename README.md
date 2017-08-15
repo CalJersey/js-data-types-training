@@ -140,17 +140,17 @@ var clubs =  [
         students: [
 	        { first: 'Joe', last: 'Lakin' },
 	        { first: 'Evalyn', last: 'Bradtke' },
-			{ first: 'Samuel', last: 'Black' }
+					{ first: 'Samuel', last: 'Black' }
 	    ],
         teacher: 'James Friar'
     },
     {
     	name: 'Jazz Band',
         students: [
-			{ first: 'Douglas', last: 'Wisoky' },
+					{ first: 'Douglas', last: 'Wisoky' },
         	{ first: 'Cora', last: 'Thompson' },
-			{ first: 'Samuel', last: 'Ziemann' },
-			{ first: 'Alana', last: 'Cortez'}
+					{ first: 'Samuel', last: 'Ziemann' },
+					{ first: 'Alana', last: 'Cortez'}
 	    ],
         teacher: 'Luther Richards'
     },
@@ -158,9 +158,9 @@ var clubs =  [
     	name: 'Swim Team',
         students: [
         	{ first: 'Cora', last: 'Thompson' },
-			{ first: 'Samuel', last: 'Black' },
-			{ first: 'Alana', last: 'Cortez'},
-			{ first: 'Joe', last: 'Lakin' }
+					{ first: 'Samuel', last: 'Black' },
+					{ first: 'Alana', last: 'Cortez'},
+					{ first: 'Joe', last: 'Lakin' }
 	    ],
         teacher: 'Carol Darby'
     }
