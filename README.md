@@ -8,8 +8,8 @@
 ### Strings
 
 1. Store your first name in a variable.
-2. Concatenate your first name with your last name, and store the result in another variable.
-3. Use the `String` [split](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split) method to turn your string variable from challenge #2 into an array.
+2. Concatenate your first name with your last name, and store the result in another variable called `fullName`.
+3. Use the `String` [split](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split) method to turn your `fullName` variable from challenge #2 into an array with 2 elements – your first name and last name (e.g. 'Bob Smith' --> `['Bob', 'Smith']`).
 
 ### Arrays
 
